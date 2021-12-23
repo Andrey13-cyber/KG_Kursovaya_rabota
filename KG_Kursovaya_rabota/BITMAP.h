@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef BITMAP_H_
 #define BITMAP_H_
 #include <windows.h>
@@ -32,38 +31,3 @@ private:
 };
 
 #endif // ! Area_H_
-=======
-#ifndef BITMAP_H_
-#define BITMAP_H_
-#include <windows.h>
-#define RGB_BMP(r, g ,b)  ((COLORREF)(((BYTE)(b)|((WORD)((BYTE)(g))<<8))|(((DWORD)(BYTE)(r))<<16)))
-
-class Bitmap {
-public:
-	Bitmap(int w, int h, int x0, int y0, COLORREF col);
-	~Bitmap();
-	void DrawBitmap();
-	void line(int x0, int y0, int x1, int y1, COLORREF col);
-	void clear(int x0,int y0, int x1, int y1);
-	COLORREF& operator()(int i, int j);
-
-	const int width;
-	const int height;
-	const int x;
-	const int y;
-private:
-	const int k = 8;
-	HDC hDC;
-	BITMAP bmp;
-	HBITMAP hBitmap;
-	COLORREF color;
-	COLORREF *mapIMG;
-
-	HBITMAP hOldbm;
-	HDC hMemDC;
-	BITMAP bm;
-	POINT  ptSize, ptOrg;
-};
-
-#endif // ! Area_H_
->>>>>>> edec401c9b420f6dd8ce8b5adcb2b47a12c17905

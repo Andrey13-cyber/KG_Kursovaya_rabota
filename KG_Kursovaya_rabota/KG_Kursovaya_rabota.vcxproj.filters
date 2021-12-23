@@ -36,7 +36,7 @@
     <ClCompile Include="..\..\KR_KG_13\KR_KG_13\Vector.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Kurs_Project_Comp_Graph\KG_Kurs_Work\BITMAP.cpp">
+    <ClCompile Include="BITMAP.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>

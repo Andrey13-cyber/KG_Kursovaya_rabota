@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\Kurs_Project_Comp_Graph\KG_Kurs_Work\BITMAP.cpp" />
     <ClCompile Include="..\..\KR_KG_13\KR_KG_13\Figure.cpp" />
     <ClCompile Include="..\..\KR_KG_13\KR_KG_13\Function.cpp" />
     <ClCompile Include="..\..\KR_KG_13\KR_KG_13\main.cpp" />
@@ -147,6 +146,7 @@
     <ClCompile Include="..\..\KR_KG_13\KR_KG_13\Parallel.cpp" />
     <ClCompile Include="..\..\KR_KG_13\KR_KG_13\TrianglePyramid.cpp" />
     <ClCompile Include="..\..\KR_KG_13\KR_KG_13\Vector.cpp" />
+    <ClCompile Include="BITMAP.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\KR_KG_13\KR_KG_13\BITMAP.h" />
